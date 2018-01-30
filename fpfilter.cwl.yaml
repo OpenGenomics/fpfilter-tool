@@ -93,5 +93,5 @@ outputs:
   filtered_vcf:
     type: File
     outputBinding:
-      glob: filtered.vcf
+      glob: $(inputs.output)
 
