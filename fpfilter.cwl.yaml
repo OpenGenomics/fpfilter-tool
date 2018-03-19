@@ -44,7 +44,7 @@ inputs:
   min-var-count:
     type: int
     label: minimum number of variant-supporting reads
-    default: 4
+    default: 3
     inputBinding:
       prefix: --min-var-count
   min-strandedness:
